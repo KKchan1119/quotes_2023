@@ -36,5 +36,10 @@ public class WiseListController {
 
         }
     }
+
+    public void remove(){
+
+    }
+
 }
 
