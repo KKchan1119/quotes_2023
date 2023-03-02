@@ -36,8 +36,13 @@ public class App {
 
                 if(cmd.equals("목록")){
                     System.out.println("번호 / 작가 / 명언");
-                    System.out.println("----------------------");
-                    System.out.println("생성된 명언 수: "+wiseList.size());
+                    System.out.println("-".repeat(30));
+                    for(int i = 0; i < wiseList.size(); i++) {
+                        WiseList wiseList1 = wiseList.get(i);
+
+                        System.out.printf("%d / %s / %s\n", wiseList1.getId(), wiseList1.getWriterName(), wiseList1.getContent());
+
+                    }
                 }
 
 
