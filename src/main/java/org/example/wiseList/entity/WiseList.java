@@ -1,4 +1,4 @@
-package org.example;
+package org.example.wiseList.entity;
 
 public class WiseList {
     private int id;

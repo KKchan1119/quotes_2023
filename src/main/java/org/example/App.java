@@ -1,5 +1,7 @@
 package org.example;
 
+import org.example.wiseList.entity.WiseList;
+
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
@@ -44,6 +46,9 @@ public class App {
 
                     }
                 }
+                if(cmd.equals("삭제")){
+
+                }
 
 
 
@@ -51,5 +56,7 @@ public class App {
                     break;
                 }
             }
+
     }
+
 }
